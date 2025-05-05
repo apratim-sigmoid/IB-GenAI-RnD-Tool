@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit==1.44.0
+pandas
+numpy
+Pillow
+python-dateutil
+openpyxl
+
+# API and external libraries
+openai
+requests
+
+# Visualization
+plotly==5.22.0
+pyecharts
+folium
+streamlit-folium
+altair
+
+# Async support
+nest-asyncio
+asyncio
