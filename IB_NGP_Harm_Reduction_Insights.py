@@ -555,7 +555,7 @@ with st.sidebar:
     
     # Add radio button to choose between default and custom API key
     api_option = st.radio(
-        "",  # Empty label
+        "API Key Selection",
         options=["Use Default OpenAI API Key", "Enter Custom OpenAI API Key"],
         index=0 if default_api_key else 1,  # Default to "Use Default Key" if available
         disabled=not bool(default_api_key),  # Disable if no default key available
@@ -1427,7 +1427,7 @@ with tabs[1]:
         ]
         
         selected_example = st.selectbox(
-            "",  # Empty label
+            "Example Questions",
             example_questions,  # Only the actual questions, no placeholder in the list
             key=f"example_question_select_{st.session_state.input_key_counter}",  # Dynamic key to reset dropdown
             disabled=not api_key_available,
