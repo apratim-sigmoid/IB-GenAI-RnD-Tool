@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit==1.44.0
+pandas
+numpy
+Pillow
+python-dateutil
+openpyxl
+audio-recorder-streamlit
+
+# API and external libraries
+openai
+requests
+
+# Visualization
+plotly==5.22.0
+pyecharts
+folium
+streamlit-folium
+altair
+
+# Async support
+nest-asyncio
+
+# RAG/Vector Database dependencies
+faiss-cpu  # or faiss-gpu 
+scikit-learn
+
+# Document processing
+python-docx
